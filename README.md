@@ -4,6 +4,8 @@ Local visual testing using [`jest-screenshot`](https://www.npmjs.com/package/jes
 
 ## Getting started
 ```bash
+$ git clone https://github.com/aversini/puppetmaster.git
+$ cd puppetmaster
 $ npm install
 ```
 
@@ -17,14 +19,19 @@ $ export PUPPETMASTER_CONFIG=/some/path/to/your/config.js
 
 
 ## Usage
-### Create a base snapshot of a local URL
+Make sure a local URL that should be tested is
+
+- currently running
+- has been setup in your configuration file (see `PUPPETMASTER_CONFIG` above)
+
+### Step 1: create a base snapshot of a local URL
 ```bash
 $ npm run base
 ```
 
-### Compare a base snapshot against a local URL
+### Step 2: compare a base snapshot against a local URL
 ```bash
 $ npm run test
 ```
 
-If the visual comparison fails, a detail explanation will be generated under `jest-screenshot-report/index.html`.
+If the visual comparison fails, a detailed explanation will be generated under `jest-screenshot-report/index.html`.
