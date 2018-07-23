@@ -6,7 +6,9 @@
   "license": "MIT",
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "base": "npm-run-all --serial clean test",
+    "clean": "rimraf \"__tests__/__snapshots__\" jest-screenshot-report",
+    "test": "jest"
   },
   "devDependencies": {
     "eslint-config-versini": "1.0.0",
