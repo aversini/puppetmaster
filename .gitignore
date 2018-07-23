@@ -63,3 +63,5 @@ typings/
 
 # VS code local workspace settings
 .vscode
+/jest-screenshot-report
+/__tests__/__snapshots__
