@@ -1,6 +1,7 @@
 node_modules
 tmp
 package.json
+.babelrc
 *-min.js
 *-min.css
 *.md
