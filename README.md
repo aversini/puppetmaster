@@ -4,7 +4,7 @@ Local visual testing using [`jest-screenshot`](https://www.npmjs.com/package/jes
 
 ## Installation
 
-Please see [Custom installation](#custom_installation) below to customize what will be installed or not (Chromium, etc.)
+Please see [Custom installation](#custom-installation) below to customize what will be installed or not (Chromium, etc.)
 ```bash
 $ git clone https://github.com/aversini/puppetmaster.git
 $ cd puppetmaster
