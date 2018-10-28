@@ -65,3 +65,4 @@ typings/
 .vscode
 /jest-screenshot-report
 /__tests__/__snapshots__
+/third-party/mac-puppeteer/Chromium.app
